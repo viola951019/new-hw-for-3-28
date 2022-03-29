@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("please input two number  , first one\n");
+    scanf("%d",&a);
+    printf("please input two number , second  \n");
+    scanf("%d",&b);
+    printf("please input their sum \n");
+    scanf("%d",&c);
+    if (c == ( a + b))
+        printf(" right ");
+    else
+        printf(" error ");
+    return 0;
+}
