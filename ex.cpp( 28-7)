@@ -1,0 +1,15 @@
+#include <iostream>
+int main()
+{
+    int a,b;
+    printf("please input your age and your friend's age \n");
+    scanf("%d%d",&a,&b);
+    if(a>b)
+        printf("Your age is older and is %d years old", a);
+
+    else
+        printf("Your friend age is older and is %d years old", b);
+       
+   
+    return 0;
+}
